@@ -1,0 +1,25 @@
+{
+  "name": "ng_photo_gallery",
+  "version": "1.0.0",
+  "description": "Photo gallery app using angular",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikep79/ng_photo_gallery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikep79/ng_photo_gallery/issues"
+  },
+  "homepage": "https://github.com/mikep79/ng_photo_gallery#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.15.4"
+  }
+}

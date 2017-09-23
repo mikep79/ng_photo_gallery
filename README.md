@@ -1,11 +1,19 @@
 # ng_photo_gallery
 Photo gallery app using angular
 
-- [ ] Set up file tree: no database for starters.
-- [ ] Spin up server.
-- [ ] Connect to index.html.
-- [ ] Upload pics to some server (own website?)
-- [ ] 
+- [x] Set up file tree: no database for starters.
+- [ ] Download some photos to images folder.
+- [ ] Structure for index.html: 
+    Within each <span>: Img <div>. Description <div>. Button below images with <div>.
+    'Likes' <div> for text (counter of number of people who 'liked' photo).
+- [ ] CSS file to look approximately correct.
+
+Client side logic:
+- [ ] When img div clicked, hide img, show description. Vice versa.
+- [ ] When button clicked, update 'likes' field.
+
+Hard mode:
+
 
 Weekend Challenge 4
 We're switching up our client-side this weekend with Angular! Our focus will be on getting comfortable with what Angular can do for us, so most of our effort will be on client-side JavaScript and, hopefully, experimenting with CSS.
