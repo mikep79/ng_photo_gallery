@@ -6,11 +6,10 @@ Photo gallery app using angular
 - [x] Structure for index.html: 
     Within each <span>: Img <div>. Description <div>. Button below images with <div>.
     'Likes' <div> for text (counter of number of people who 'liked' photo).
-- [ ] 
-- [ ] CSS file to look approximately correct.
+- [x] CSS file to look approximately correct.
 
 Client side logic:
-- [ ] When img div clicked, hide img, show description. Vice versa.
+- [x] When img div clicked, hide img, show description. Vice versa.
 - [ ] When button clicked, update 'likes' field.
 
 Hard mode:

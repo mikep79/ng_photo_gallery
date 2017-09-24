@@ -4,18 +4,9 @@ myApp.controller('PhotoController', function($http){
     var vm = this;
     vm.imgArray = [];
 
-    // image objects
-    vm.pic1 = {
-        desc: 'HIDDEN // here is pic 1',
-        img: 'images/pic1.jpeg'
-    };
-    vm.pic2 = {
-        desc: 'HIDDEN // here is pic 2',
-        img: 'images/pic2.jpg'
-    };
-    vm.pic3 = {
-        desc: 'HIDDEN // here is pic 3',
-        img: 'images/pic3.jpg'
+    // button click targets pic object and toggles view
+    vm.toggle = function(imgObj){
+        imgObj.view = !imgObj.view;
     };
 
     // get pics array function

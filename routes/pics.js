@@ -2,7 +2,7 @@ var router = require('express').Router();
 
 var pic1 = {
     desc: 'HIDDEN // here is pic 1',
-    img: 'images/pic1.jpeg'
+    img: 'images/pic1.jpeg',
 };
 var pic2 = {
     desc: 'HIDDEN // here is pic 2',
