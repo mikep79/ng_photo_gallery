@@ -11,6 +11,7 @@ app.listen(port, function(){
 
 //middleware
 app.use(express.static('public'));
+app.use(bodyParser.json());
 
 //routes
 app.use('/', index);

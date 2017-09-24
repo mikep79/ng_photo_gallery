@@ -1,20 +1,21 @@
 .pic {
-    height: 100px;
+    height: 200px;
+    width: 200px
 }
 
 .item_block {
-    height: 150px;
-    width: 200px;
+    height: 400px;
+    width: 300px;
     float: left;
+    background-color: #B89EB9;
 }
 
 .image_block {
     margin: 20px;
-    height: 100px;
+    height: 200px;
+    width: 200px;
 }
 
-.pic_desc {
-    float: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+.text_pic_desc {
+    text-align: center;
 }

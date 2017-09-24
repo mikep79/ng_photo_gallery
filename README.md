@@ -10,10 +10,11 @@ Photo gallery app using angular
 
 Client side logic:
 - [x] When img div clicked, hide img, show description. Vice versa.
-- [ ] When button clicked, update 'likes' field.
+- [x] When button clicked, update 'likes' field.
 
 Hard mode:
-
+- [x] Make comment section. POST req to new /comments route.
+- [ ] Style. 
 
 Weekend Challenge 4
 We're switching up our client-side this weekend with Angular! Our focus will be on getting comfortable with what Angular can do for us, so most of our effort will be on client-side JavaScript and, hopefully, experimenting with CSS.

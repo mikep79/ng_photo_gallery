@@ -15,17 +15,29 @@
     <header>
         <h1>Photo Gallery</h1>
     </header>
-    <main>
-        <section id="field" ng-repeat="pic in PC.imgArray">
+    <main id="picsField" ng-repeat="pic in PC.imgArray">
+        <section>
             <div class="item_block">
                 <div class="image_block" ng-click='PC.toggle(pic)'>
                     <img class='pic' ng-hide='pic.view' ng-src='{{ pic.img }}' />
-                    <div class="pic_desc" ng-show='pic.view'>{{ pic.desc }}</div>
+                    <div class="text_pic_desc" ng-show='pic.view'>{{ pic.desc }}</div>
                 </div>
-                <div><button class="button_like">Like!</button></div>
-                <div class="text_likes"># of likes</div>
-            </div>
-
+                <div class="buttons">
+                    <button class="button_like" ng-click='PC.like(pic.id)'>Like!</button>
+                    <button ng-click='PC.postComment(pic.id)'>Comment</button>
+                    <button ng-click='PC.showComments(pic)'>All Comments</button>
+                </div>
+                <div class="text_likes">
+                    {{ pic.message }}
+                </div>
+                <div class="text_comments" ng-show='pic.commentsView' >
+                    <ul ng-repeat='comment in pic.comments'>
+                        <li>
+                            {{ comment }}
+                        </li>
+                    </ul>
+                </div>
+            </div> 
         </section>
     </main>
 
