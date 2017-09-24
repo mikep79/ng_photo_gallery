@@ -21,6 +21,13 @@ var imgArray = [
         likes: 0,
         comments: []
     },
+    {
+        id: 3,
+        desc: 'Picture of Lily.',
+        img: 'images/pic4.jpg',
+        likes: 0,
+        comments: []
+    },
 ];
 
 router.get('/', function(req, res){
