@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,42 @@
     <script src='scripts/client.js'></script>
     <link href='styles/main.css' type='text/css' rel='stylesheet' />
 </head>
+
 <body ng-app='myApp' ng-controller='PhotoController as PC'>
-    <h1>Photo Gallery</h1>
-    
+    <header>
+        <h1>Photo Gallery</h1>
+    </header>
+    <main>
+        <section id="field">
+            <div class="image_block">
+                <div>
+                    <img class='pic' ng-src='{{ PC.pic1.img }}' />
+                    <div class="pic_desc">{{ PC.pic1.desc }}</div>
+                </div>
+                <div><button class="button_like">Like!</button></div>
+                <div class="text_likes"># of likes</div>
+            </div>
+            <div class="image_block">
+                <div>
+                    <img class='pic' ng-src='{{ PC.pic2.img }}' />
+                    <div class="pic_desc">{{ PC.pic2.desc }}</div>
+                </div>
+                <div><button class="button_like">Like!</button></div>
+                <div class="text_likes"># of likes</div>
+            </div>
+            <div class="image_block">
+                <div>
+                    <img class='pic' ng-src='{{ PC.pic3.img }}' />
+                    <div class="pic_desc">{{ PC.pic3.desc }}</div>
+                </div>
+                <div><button class="button_like">Like!</button></div>
+                <div class="text_likes"># of likes</div>
+            </div>
+
+            <!-- THREE OTHER PICS -->
+
+        </section>
+    </main>
 </body>
+
 </html>

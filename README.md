@@ -2,10 +2,11 @@
 Photo gallery app using angular
 
 - [x] Set up file tree: no database for starters.
-- [ ] Download some photos to images folder.
-- [ ] Structure for index.html: 
+- [x] Download some photos to images folder.
+- [x] Structure for index.html: 
     Within each <span>: Img <div>. Description <div>. Button below images with <div>.
     'Likes' <div> for text (counter of number of people who 'liked' photo).
+- [ ] 
 - [ ] CSS file to look approximately correct.
 
 Client side logic:
