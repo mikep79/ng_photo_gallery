@@ -14,7 +14,7 @@ Client side logic:
 
 Hard mode:
 - [x] Make comment section. POST req to new /comments route.
-- [ ] Style. 
+- [x] Style. 
 
 Weekend Challenge 4
 We're switching up our client-side this weekend with Angular! Our focus will be on getting comfortable with what Angular can do for us, so most of our effort will be on client-side JavaScript and, hopefully, experimenting with CSS.
