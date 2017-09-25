@@ -2,32 +2,46 @@ var router = require('express').Router();
 var imgArray = [
     {
         id: 0,
-        desc: 'HIDDEN // here is pic 1',
-        img: 'images/pic1.jpeg',
+        desc: 'Christmas photo of me and my goofy girl :)',
+        img: 'images/pic1.jpg',
         likes: 0,
         comments: []
     },
     {
         id: 1,
-        desc: 'HIDDEN // here is pic 2',
+        desc: 'I LOVE playing games, and these kids give me quite a challenge...',
         img: 'images/pic2.jpg',
         likes: 0,
         comments: []
     },
     {
         id: 2,
-        desc: 'HIDDEN // here is pic 3',
+        desc: 'Waterfall in yellowstone',
         img: 'images/pic3.jpg',
         likes: 0,
         comments: []
     },
     {
         id: 3,
-        desc: 'Picture of Lily.',
+        desc: 'My sweet niece Lily is always full of delight',
         img: 'images/pic4.jpg',
         likes: 0,
         comments: []
     },
+    {
+        id: 4,
+        desc: 'Always been an animal lover - me and Lacie, age 7 or so.',
+        img: 'images/pic5.jpg',
+        likes: 0,
+        comments: []
+    },
+    {
+        id: 5,
+        desc: 'Young elk on a nature walk in Colorado - a fav hobby',
+        img: 'images/pic6.jpg',
+        likes: 0,
+        comments: []
+    }
 ];
 
 router.get('/', function(req, res){
