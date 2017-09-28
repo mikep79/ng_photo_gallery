@@ -38,7 +38,7 @@ var imgArray = [
     {
         id: 5,
         desc: 'Young elk that approached us on a nature walk in Colorado - a fav hobby of ours',
-        img: 'images/testpic.jpg',
+        img: 'images/testpic6.jpg',
         likes: 0,
         comments: []
     }
