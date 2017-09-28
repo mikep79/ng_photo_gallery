@@ -16,7 +16,7 @@ var imgArray = [
     },
     {
         id: 2,
-        desc: 'Waterfall in yellowstone',
+        desc: 'Waterfall in an amazing yellowstone hike',
         img: 'images/pic3.jpg',
         likes: 0,
         comments: []
@@ -37,7 +37,7 @@ var imgArray = [
     },
     {
         id: 5,
-        desc: 'Young elk on a nature walk in Colorado - a fav hobby',
+        desc: 'Young elk that approached us on a nature walk in Colorado - a fav hobby of ours',
         img: 'images/pic6.jpg',
         likes: 0,
         comments: []
