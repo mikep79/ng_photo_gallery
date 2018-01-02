@@ -4,10 +4,14 @@ This app was built with JavaScript, AngularJS, Node.js and custom CSS styling.
 
 <a href="https://ng-photo-gallery.herokuapp.com/">Demo version of app</a>
 
+<br>
 <p>
-<img src="screenshots/3.png" width="400px" style="margin-right: 40px;" />
-<img src="screenshots/2.png" width="400px" />
+<img src="screenshots/3.png" width="450px" />
 </p>
+<p>
+<img src="screenshots/2.png" width="450px" />
+</p>
+<br>
 
 ### Technology used
 JavaScript, AngularJS, Node.js and custom CSS styling. Focus on using AngularJS $http calls to read and update data.
